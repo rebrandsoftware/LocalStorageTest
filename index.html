@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>LocalStorageTest</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<!-- start jquery mobile -->
+    <link rel="stylesheet" href="lib/jquery.mobile-1.3.2.min.css" />
+    <link rel="stylesheet" href="lib/jquery.mobile.structure-1.3.2.min.css" />
+    <script src="lib/jquery-1.9.1.min.js"></script>
+    <script src="lib/jquery.mobile-1.3.2.min.js"></script>
+    <!-- end jquery mobil -->
+
+
+
+    <!-- start phonegap  -->
+    <script src="phonegap.js"></script>
+    <!-- end phonegap  -->
+</head> 
+<body> 
+
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-role="content">
+        <a data-role="button" id="btnInit" href="#" data-icon="gear" data-iconpos="left" data-theme="b">
+            Init Database
+        </a>
+        <a data-role="button" id="btnSave" href="#" data-icon="gear" data-iconpos="left" data-theme="b">
+            Save Value
+        </a>
+        <a data-role="button" id="btnGet" href="#" data-icon="gear" data-iconpos="left" data-theme="b">
+            Get Value
+        </a>
+    </div>
+</div>
+    <script src="js/storage/localstorage.js"></script>
+    <script src="js/storage/websql-store.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
