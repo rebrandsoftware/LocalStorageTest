@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="phonegap-version" value="3.4.0" />
 	<preference name="fullscreen" value="false" />
     <preference name="android-installLocation" value="auto" />
     <preference name="android-targetSdkVersion" value="13" />
